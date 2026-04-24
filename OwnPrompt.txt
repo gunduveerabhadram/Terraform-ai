@@ -10,7 +10,7 @@
    - Subnet
    - network_interface
    - PublicIP
-   - virtual_machine
+   - Windows_virtual_machine
 
 
 4. Excute the commands
