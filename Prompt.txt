@@ -13,13 +13,13 @@ Always provide full file contents when creating files.
    - terraform.tfvars
 
    These must provision AWS resources:
-   - VPC
+   - Resource Group
+   - Virtual Network 
    - Subnet
-   - Route Table
-   - Internet Gateway
-   - Security Group
-   - S3 bucket
-   - DynamoDB table
+   - Network Security Group 
+   - Public IP
+   - Storage Account 
+   - Table Storage 
 
 4. Create a folder `/.github/workflows/` with 3 workflow files:
    - build.yml → basic syntax check (terraform validate)
