@@ -12,5 +12,5 @@ Always provide full file contents when creating files.
    - variables.tf
    - terraform.tfvars
 
-   These must provision AWS resources:
+   These must provision AZURE resources:
    - Resource Group
