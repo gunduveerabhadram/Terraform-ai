@@ -1,1 +1,33 @@
 
+ Create Terraform files in the project root:
+   - main.tf
+   - variables.tf
+   - terraform.tfvars
+
+   These must provision AZURE resources:
+   - resource_group
+   - virtual_network
+   - Subnet
+   - network_interface
+   - PublicIP
+   - virtual_machine
+
+
+4. Excute the commands
+   - terraform init
+   - terraform validate
+   - terraform fmt
+   - terraform plan
+   - terraform apply --auto-approve
+   
+
+
+
+
+
+---
+
+⚠️ Rules:
+- Use commands where needed and file creation where needed.
+- Provide full file content when generating new files.
+- Do not skip any step. Complete each before moving to the next.
